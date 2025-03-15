@@ -90,7 +90,7 @@ function App() {
     if (code === 1 || code === 2 || code === 3) return isNight ? 'cloudy-night.png' : 'cloudy-day.png';
     if (code >= 51 && code <= 67) return isNight ? 'rainy-night.png' : 'rainy-day.png';
     if (code >= 71 && code <= 77) return isNight ? 'snow-night.png' : 'snow-day.png';
-    if (code >= 80 && code <= 99) return isNight ? 'stormy-night.png' : 'stormy.png';
+    if (code >= 80 && code <= 99) return isNight ? 'stormy-rain.png' : 'stormy.png';
     return 'cloudy-windy.png';
   };
 
